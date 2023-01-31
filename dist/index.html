@@ -3,13 +3,80 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
     <title>Bootstrap w/ Webpack</title>
   </head>
   <body>
-    <div class="container py-4 px-3 mx-auto">
-      <h1>Hello, Bootstrap and Webpack!</h1>
-      <button class="btn btn-primary">Primary button</button>
+    <div class="container title">
+      <div class="text-center line-one-style">
+        KOM NED I BUTIKKEN OG SE VORES
+      </div>
+      <div class="text-center line-two-style">
+        DEMOVARER TIL EN FORNUFTING PRIS
+      </div>
+      <div class="line"></div>
+      <div class="text-center line-three-style">
+        Vi bruger aktivat votres showroom til kunderarrangementer, kokkeskole og
+        lign., derforh <br />
+        rummer vores udstilling gennemtaenkte detaljer, til praktisk gavn i
+        hverdagen.
+      </div>
+    </div>
+
+    <div class="row mt-5 pt-3">
+      <div class="col-sm-4">
+        <div class="card rounded-0">
+          <img src="./resources/product1.png" />
+          <div
+            class="circle position-absolute top-0 start-100 translate-middle-x"
+          >
+            KAMPAGNE
+          </div>
+          <div class="card-body"></div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card rounded-0">
+          <img src="./resources/product2.png" alt="..." />
+          <div class="card-body"></div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card rounded-0">
+          <img src="./resources/product3.png" alt="..." />
+          <div class="card-body"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-sm-4">
+        <div class="card rounded-0">
+          <img src="./resources/product1.png" />
+          <div class="card-body"></div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card rounded-0 card-img-top">
+          <img src="./resources/product2.png" alt="..." />
+          <div class="card-body"></div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card rounded-0">
+          <img src="./resources/product3.png" alt="..." />
+          <div class="card-body"></div>
+        </div>
+      </div>
     </div>
     <script src="./main.js"></script>
   </body>
+  <footer></footer>
 </html>

@@ -1,0 +1,45 @@
+@mixin only-tablet() {
+  //@include media-breakpoint-between(sm, md) {
+  @media screen and (min-width: 768px) and (max-width: 991.98px) {
+    @content;
+  }
+}
+
+@mixin between-ipad-ipad_pro() {
+  @media screen and (min-width: 992px) and (max-width: 1023.91px) {
+    @content;
+  }
+}
+
+@mixin only-desktop() {
+  //@include media-breakpoint-up(lg) {
+  @media screen and (min-width: 992px) /*and (max-width: 1198px) */ {
+    @content;
+  }
+}
+
+@mixin only-desktop-1024() {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin for-tablet-desktop() {
+  //@include media-breakpoint-up(md) {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin until-desktop() {
+  //@include media-breakpoint-down(md) {
+  @media screen and (max-width: 991.98px) {
+    @content;
+  }
+}
+
+@mixin for-xl() {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
