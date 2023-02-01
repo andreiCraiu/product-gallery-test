@@ -1,0 +1,48 @@
+@include for-xl() {
+  .bottom-button {
+    width: fit-content;
+  }
+  .avatar {
+    width: 70px;
+    height: 70px;
+    &.middle-avatar {
+      width: 83px;
+      height: 83px;
+    }
+  }
+  .footer-text {
+    font-size: 15px;
+  }
+}
+@include only-tablet {
+  .bottom-button {
+    width: fit-content;
+  }
+  .avatar {
+    width: 70px;
+    height: 70px;
+    &.middle-avatar {
+      width: 83px;
+      height: 83px;
+    }
+  }
+  .footer-text {
+    font-size: 15px;
+  }
+}
+@include only-desktop-1024() {
+  .bottom-button {
+    width: fit-content;
+  }
+  .avatar {
+    width: 70px;
+    height: 70px;
+    &.middle-avatar {
+      width: 83px;
+      height: 83px;
+    }
+  }
+  .footer-text {
+    font-size: 15px;
+  }
+}
