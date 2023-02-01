@@ -1,6 +1,52 @@
+.space-margin {
+  margin-left: 19%;
+  margin-right: 19%;
+}
 .circle {
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  width: 25%;
+  height: 16%;
   background-color: black;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.circle-text {
+  text-align: center;
+  position: relative;
+  top: 35%;
+  color: #ffff;
+  font-family: "Roboto Condensed";
+  font-size: 110%;
+}
+.circle-text-brake {
+  text-align: center;
+  position: relative;
+  top: 25%;
+  color: #ffff;
+  font-family: "Roboto Condensed";
+  font-size: 110%;
+}
+.card-button {
+  margin-top: -12%;
+  margin-left: 3%;
+  font-family: "Roboto Condensed";
+  font-size: 120%;
+  width: 70%;
+}
+.new-price {
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-weight: bolder;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.old-price {
+  font-family: "Roboto Condensed";
+  font-size: 17px;
+  font-weight: lighter;
+  margin-right: 10px;
+  margin-top: 12px;
+  text-decoration: line-through;
 }
